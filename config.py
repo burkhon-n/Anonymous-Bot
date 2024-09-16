@@ -1,7 +1,7 @@
 import json
 
 ADMIN_ID = "6154462210"
-URL = "https://d971-95-46-66-124.ngrok-free.app"
+URL = "https://hfsdhbcdshjbot.onrender.com"
 TOKEN = "6662634917:AAGb5i24Icsr8D2ANuhXwgIB8gF9Azz6Gbk"
 CHANNEL_ID = "@burkhonstestchannel"
 
