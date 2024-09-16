@@ -30,5 +30,3 @@ def setwebhook():
         return Response("Done", status=200)
     except Exception as e:
         return Response(str(e), status=500)
-
-app.run(host="localhost", port=8888)
