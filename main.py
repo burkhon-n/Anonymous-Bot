@@ -1,5 +1,6 @@
 from flask import Flask, Response, request
 import requests
+from asgiref.wsgi import WsgiToAsgi
 from config import *
 from telebot.types import Update
 from bot import *
@@ -30,3 +31,5 @@ def setwebhook():
         return Response("Done", status=200)
     except Exception as e:
         return Response(str(e), status=500)
+        
+asgi_app = WsgiToAsgi(app)
