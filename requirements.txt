@@ -2,3 +2,4 @@ Flask
 pyTelegramBotAPI
 requests
 fastapi
+uvicorn
